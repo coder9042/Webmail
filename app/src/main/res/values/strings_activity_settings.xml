@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="title_activity_settings">Webmail Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_user_settings">User Settings</string>
+    <string name="pref_header_server_settings">Server Settings</string>
+    <string name="pref_header_timer_settings">Sync Settings</string>
+    <string name="pref_header_notification_settings">Notification Settings</string>
+    
+    <!-- 
+    <string name="pref_imap">IMAP Server</string>
+    <string name="pref_imap_key">IMAP Server</string>
+    <string name="pref_imap_default"></string>
+    
+    <string name="pref_smtp">SMTP Server</string>
+    <string name="pref_smtp_key">SMTP Server</string>
+    <string name="pref_smtp_default"></string>
+    
+    <string name="pref_imap_port">IMAP Port(Optional)</string>
+    <string name="pref_imap_port_key">IMAP Port</string>
+    <string name="pref_imap_port_default">0</string>
+    
+    <string name="pref_smtp_port">SMTP Port(Optional)</string>
+    <string name="pref_smtp_port_key">SMTP Port</string>
+    <string name="pref_smtp_port_default">0</string>
+    -->
+    
+    <string name="pref_server_settings">Server</string>
+    <string name="pref_server_settings_key">Server</string>
+    <string name="pref_server_settings_default">Webmail</string>
+    
+    <string name="pref_username">Username</string>
+    <string name="pref_username_key">Username</string>
+    <string name="pref_username_default"></string>
+    
+    <string name="pref_password">Password</string>
+    <string name="pref_password_key">Password</string>
+    <string name="pref_password_default"></string>
+    
+    <string name="pref_timer_settings">Sync after every</string>
+    <string name="pref_timer_settings_key">sync</string>
+    <string name="pref_timer_settings_default">2</string>
+    
+    <string name="pref_notification_toggle">Email Notifications</string>
+    <string name="pref_notification_toggle_key">notif</string>
+    <string name="pref_notification_toggle_default">On</string>
+    
+    <string name="pref_notification_sound">Choose Type</string>
+    <string name="pref_notification_sound_key">notif_tone</string>
+    <string name="pref_notification_sound_default">On</string>
+
+</resources>

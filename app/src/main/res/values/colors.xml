@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#fff</color>
+    <color name="parrot_green">#A4C639</color>
+    <color name="grey">#F5F5F5</color>
+    <color name="bg0">#1E1E1E</color>
+    <color name="bg1">#8E8E8E</color>
+    <color name="bg2">#EEE0E5</color>
+    <color name="bg3">#BBFFFF</color>
+    <color name="bg4">#C1FFC1</color>
+    <color name="bg5">#FFF68F</color>
+    <color name="bg6">#FFF8DC</color>
+    <color name="bg7">#FFDEAD</color>
+    <color name="bg8">#EEE5DE</color>
+    <color name="bg9">#8B3626</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

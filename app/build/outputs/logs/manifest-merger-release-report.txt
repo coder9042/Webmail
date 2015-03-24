@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:appcompat-v7:19.1.0:18:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+application
+ADDED from AndroidManifest.xml:14:5
+MERGED from com.android.support:appcompat-v7:19.1.0:19:5
+	android:label
+		ADDED from AndroidManifest.xml:17:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:15:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:theme
+		ADDED from AndroidManifest.xml:18:9
+activity#com.example.webmail.MainActivity
+ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:21:13
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:22:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:27
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:27:13
+action#android.intent.action.SEND
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:27
+data
+ADDED from AndroidManifest.xml:30:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:30:23
+activity#com.example.webmail.SettingsActivity
+ADDED from AndroidManifest.xml:35:9
+	android:label
+		ADDED from AndroidManifest.xml:37:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:38:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:39:13
+	android:value
+		ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:40:17
+activity#com.example.webmail.BodyActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.example.webmail.ComposeActivity
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+service#com.example.webmail.DownloadAttachment
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:60:18
+service#com.example.webmail.SendMessage
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:61:18
+service#com.example.webmail.SendMessage2
+ADDED from AndroidManifest.xml:62:9
+	android:name
+		ADDED from AndroidManifest.xml:62:18
+service#com.example.webmail.SetRead
+ADDED from AndroidManifest.xml:63:9
+	android:name
+		ADDED from AndroidManifest.xml:63:18
+service#com.example.webmail.DeleteMail
+ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:64:18
+service#com.example.webmail.DeleteMails
+ADDED from AndroidManifest.xml:65:9
+	android:name
+		ADDED from AndroidManifest.xml:65:18
+service#com.example.webmail.Sync
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:66:18
+service#com.example.webmail.Fetch
+ADDED from AndroidManifest.xml:67:9
+	android:name
+		ADDED from AndroidManifest.xml:67:18
+service#com.example.webmail.Flag
+ADDED from AndroidManifest.xml:68:9
+	android:name
+		ADDED from AndroidManifest.xml:68:18
+receiver#com.example.webmail.NotificationReceiver
+ADDED from AndroidManifest.xml:70:9
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+intent-filter#com.example.webmail.inbox
+ADDED from AndroidManifest.xml:71:13
+action#com.example.webmail.inbox
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:25
+activity#com.example.webmail.AboutActivity
+ADDED from AndroidManifest.xml:76:9
+	android:label
+		ADDED from AndroidManifest.xml:78:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:79:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13

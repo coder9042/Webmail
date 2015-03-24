@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_header_server_settings" >
+        <ListPreference
+            android:defaultValue="@string/pref_server_settings_default"
+            android:entries="@array/pref_server_settings_options"
+            android:entryValues="@array/pref_server_settings_values"
+            android:key="@string/pref_server_settings_key"
+            android:title="@string/pref_server_settings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_user_settings" >
+        <EditTextPreference
+            android:defaultValue="@string/pref_username_default"
+            android:inputType="text"
+            android:key="@string/pref_username_key"
+            android:singleLine="true"
+            android:title="@string/pref_username" />
+        <EditTextPreference
+            android:defaultValue="@string/pref_password_default"
+            android:inputType="textPassword"
+            android:key="@string/pref_password_key"
+            android:singleLine="true"
+            android:title="@string/pref_password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_timer_settings" >
+        <ListPreference
+            android:defaultValue="@string/pref_timer_settings_default"
+            android:entries="@array/pref_timer_settings_options"
+            android:entryValues="@array/pref_timer_settings_values"
+            android:key="@string/pref_timer_settings_key"
+            android:title="@string/pref_timer_settings" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_header_notification_settings" >
+        <ListPreference
+            android:defaultValue="@string/pref_notification_toggle_default"
+            android:entries="@array/pref_notification_toggle_options"
+            android:entryValues="@array/pref_notification_toggle_values"
+            android:key="@string/pref_notification_toggle_key"
+            android:title="@string/pref_notification_toggle" />
+        
+        <ListPreference
+            android:defaultValue="@string/pref_notification_sound_default"
+            android:entries="@array/pref_notification_sound_options"
+            android:entryValues="@array/pref_notification_sound_values"
+            android:key="@string/pref_notification_sound_key"
+            android:title="@string/pref_notification_sound" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

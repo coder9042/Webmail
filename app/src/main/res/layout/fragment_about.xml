@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.webmail.AboutActivity$PlaceholderFragment" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_version"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >"
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/author1" />
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:text="@string/author1"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >"
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/author2" />
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10sp"
+            android:text="@string/author2"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

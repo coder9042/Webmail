@@ -1,0 +1,128 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.webmail.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <!-- The main content view -->
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- The navigation drawer -->
+
+    <LinearLayout
+        android:id="@+id/linear_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/menu_drawer_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@color/parrot_green"
+            android:gravity="center"
+            android:minHeight="70sp"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/drawer_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#fff"
+            android:choiceMode="singleChoice" />
+
+        <View
+            android:id="@+id/filler"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="start"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="#fff"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingBottom="5sp" >
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="start"
+                android:clickable="true"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/menu_drawer_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:minHeight="40sp"
+                android:text="Settings"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:clickable="true"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/menu_drawer_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:minHeight="40sp"
+                android:text="About"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:clickable="true"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/menu_drawer_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:background="@color/grey"
+                android:minHeight="40sp"
+                android:text="Send Feedback"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@id/separator"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="start"
+                android:clickable="true"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

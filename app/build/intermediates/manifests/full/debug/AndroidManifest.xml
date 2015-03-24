@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.webmail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.webmail.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+"
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="message/rfc822" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.webmail.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.example.webmail.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.webmail.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.webmail.BodyActivity"
+            android:label="@string/title_activity_body"
+            android:parentActivityName="com.example.webmail.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.webmail.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.webmail.ComposeActivity"
+            android:label="@string/title_activity_compose"
+            android:parentActivityName="com.example.webmail.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.webmail.MainActivity" />
+        </activity>
+
+        <service android:name="com.example.webmail.DownloadAttachment" />
+        <service android:name="com.example.webmail.SendMessage" />
+        <service android:name="com.example.webmail.SendMessage2" />
+        <service android:name="com.example.webmail.SetRead" />
+        <service android:name="com.example.webmail.DeleteMail" />
+        <service android:name="com.example.webmail.DeleteMails" />
+        <service android:name="com.example.webmail.Sync" />
+        <service android:name="com.example.webmail.Fetch" />
+        <service android:name="com.example.webmail.Flag" />
+
+        <receiver android:name="com.example.webmail.NotificationReceiver" >
+            <intent-filter>
+                <action android:name="com.example.webmail.inbox" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.webmail.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example.webmail.MainActivity" >
+        </activity>
+    </application>
+
+</manifest>

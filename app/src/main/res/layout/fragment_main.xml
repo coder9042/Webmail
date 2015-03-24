@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.webmail.MainActivity$PlaceholderFragment" >
+
+    <ListView
+        android:id="@+id/main_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="12"
+        android:dividerHeight="2dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

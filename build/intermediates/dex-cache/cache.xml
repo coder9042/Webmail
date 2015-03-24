@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidStudioWorkspace\Webmail\app\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\pre-dexed\debug\activation-65c83afa61dd30ea6a833f512fee004b22182faf.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioWorkspace\Webmail\app\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\pre-dexed\debug\mail-b37588f4dace5bb78716e6287a4ec78f36044672.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioWorkspace\Webmail\app\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\pre-dexed\debug\additionnal-aec547fa8d43cd3d0acf998274181a4173397ef6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anubhav\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-eefe3cb8fe508172569ed9c57da057ccd8a2e8fc.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="E:\AndroidStudioWorkspace\Webmail\app\build\intermediates\pre-dexed\debug\classes-41ddd707482d979cb172f5d5eba3ec7d990c2784.jar" />
+    </item>
+
+</items>

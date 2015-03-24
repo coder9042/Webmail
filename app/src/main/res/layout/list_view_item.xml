@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_selector"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/list_item_icon_layout"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5sp" >
+
+        <ImageView
+            android:id="@+id/list_item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mail_read" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_item_left"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingBottom="5sp"
+        android:paddingTop="5sp" >
+
+        <TextView
+            android:id="@+id/list_item_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/list_item_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:lines="3"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_item_right"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_item_date"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="5" >
+
+            <ImageView
+                android:id="@+id/list_item_flag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:src="@drawable/unflagged" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
